@@ -1,6 +1,6 @@
 # Terms and Conditions
 
-**Last updated: March 13, 2026**
+**Last updated: March 29, 2026**
 
 ## Agreement to Terms
 
