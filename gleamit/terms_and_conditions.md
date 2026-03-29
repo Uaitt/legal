@@ -4,24 +4,24 @@
 
 ## Agreement to Terms
 
-By downloading, installing, or using Kirami ("the app"), you agree to be bound
+By downloading, installing, or using Gleamit ("the app"), you agree to be bound
 by these Terms and Conditions. If you do not agree to these terms, please do not
 use the app.
 
 ## Description of Service
 
-Kirami is a mobile application designed to help you track your oral hygiene
+Gleamit is a mobile application designed to help you track your oral hygiene
 habits, including brushing sessions, brush replacement schedules, and dental
 appointments. The app stores all data locally on your device.
 
 ## Use of the App
 
-Kirami is provided for personal, non-commercial use. You agree to use the app
+Gleamit is provided for personal, non-commercial use. You agree to use the app
 only for its intended purpose of tracking oral hygiene habits.
 
 ## Medical Disclaimer
 
-Kirami is **not a medical device** and is not intended to diagnose, treat, cure,
+Gleamit is **not a medical device** and is not intended to diagnose, treat, cure,
 or prevent any disease or medical condition. The app provides general
 information and tracking tools for oral hygiene habits only.
 
@@ -33,7 +33,7 @@ guidance.
 ## Intellectual Property
 
 The app, including its design, code, graphics, and content, is the intellectual
-property of the Kirami development team. You may not copy, modify, distribute,
+property of the Gleamit development team. You may not copy, modify, distribute,
 or reverse-engineer any part of the app except as permitted by applicable law.
 
 ## Data and Privacy

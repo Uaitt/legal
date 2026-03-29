@@ -4,13 +4,13 @@
 
 ## Introduction
 
-Kirami ("we", "our", or "the app") is a mobile application designed to help you
+Gleamit ("we", "our", or "the app") is a mobile application designed to help you
 track your oral hygiene habits. Your privacy is important to us. This Privacy
-Policy explains how Kirami handles your information.
+Policy explains how Gleamit handles your information.
 
 ## Data We Collect
 
-**Kirami does not collect, transmit, or store any personal data on external
+**Gleamit does not collect, transmit, or store any personal data on external
 servers.** All information you enter is stored exclusively on your device.
 
 The types of data stored locally on your device include:
@@ -37,7 +37,7 @@ If you uninstall the app, all locally stored data will be permanently deleted.
 
 ## Notifications
 
-Kirami uses local notifications to send you brushing reminders, brush
+Gleamit uses local notifications to send you brushing reminders, brush
 replacement reminders, cleaning reminders, and appointment reminders. These
 notifications are scheduled and delivered entirely on your device. No
 notification data is sent to any external service.
@@ -46,12 +46,12 @@ You can manage notification permissions through your device's system settings.
 
 ## Third-Party Services
 
-Kirami does not currently use any third-party services, analytics tools,
+Gleamit does not currently use any third-party services, analytics tools,
 advertising networks, or tracking technologies.
 
 ## Children's Privacy
 
-Kirami does not knowingly collect personal information from children under 13.
+Gleamit does not knowingly collect personal information from children under 13.
 The app does not require account creation and stores all data locally on the
 device. If you believe a child has provided personal information through the
 app, please contact us and we will take steps to address the concern.
