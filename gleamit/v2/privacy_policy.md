@@ -193,4 +193,4 @@ updating the "Last updated" date at the top of this page.
 
 If you have any questions about this Privacy Policy, please contact:
 
-**Email:** lorenzozabot@gmail.com
+**Email:** support@gleamit.app

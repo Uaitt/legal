@@ -169,4 +169,4 @@ conflict of law principles.
 
 If you have any questions about these Terms and Conditions, please contact:
 
-**Email:** lorenzozabot@gmail.com
+**Email:** support@gleamit.app
