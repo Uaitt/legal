@@ -1,252 +1,170 @@
 # Privacy Policy
 
-**Last updated: August 16, 2026**
+**Last updated: August 18, 2026**
 
-**Policy version: 2026-08-16**
+**Policy version: 2026-08-18**
 
-## Introduction
+Gleamit helps you track oral hygiene habits. It is developed by **Lorenzo
+Zabot, Milan, Italy** ("we", "us").
 
-Gleamit ("we", "our", or "the app") is a mobile application that helps you
-track oral hygiene habits such as brushing, flossing, reminders, brush
-replacement, and dental care information. Gleamit is developed by **Lorenzo
-Zabot, Milan, Italy**. This Privacy Policy explains what information Gleamit
-stores and how it is handled.
+## The short version
 
-Gleamit is designed to be private by default. There is **no Gleamit account
-and no Gleamit backend**: your data is stored **on your device** and is not
-sent to us. We do not use advertising networks, third-party analytics, or
-tracking SDKs. The app connects to a third party in only two cases:
+There is **no Gleamit account and no Gleamit backend**. Your data is stored on
+your device and never reaches us. There are no ads, no analytics, and no
+tracking SDKs. The app talks to a third party in only two cases:
 
-- to operate the optional in-app purchase, including checking at start-up
-  whether you already own it (see "In-App Purchases"), and
-- if you turn on the optional **cloud backup**, to keep a copy of your data in
-  storage of your own (see "Cloud Backup"). It is off until you enable it, and
-  the copy never reaches us.
+- the optional one-time "Pro" purchase, including the check at start-up for a
+  purchase you already own, and
+- the optional **cloud backup**, off until you turn it on, which puts a copy of
+  your data in cloud storage of your own - never in ours.
 
-## Information Stored on Your Device
+## What is stored on your device
 
-Gleamit stores your data locally using on-device storage. This data stays on
-your device unless you choose to export it, or unless you turn on cloud backup
-(see "Cloud Backup").
+Everything you record: brushing and floss sessions (with timestamps, dates and
+time zone), streaks and derived statistics, reminders, toothbrushes and brush
+heads, dentist and appointment details, your tooth map with its change history,
+the dentist documents and smile photos you attach, the name for your dentist
+report, app preferences, your cloud backup settings (including the Google
+account you connected on Android and when the last backup ran or failed), and a
+local flag recording whether "Pro" is active.
 
-Local data may include:
+We have no access to any of it.
 
-- **Brushing sessions** - timestamps, durations, local calendar dates, and the
-  time zone in which a session was recorded.
-- **Floss sessions** - completion timestamps.
-- **Streak and derived progress data** - current streaks, best streaks, and
-  related statistics.
-- **Reminder settings** - reminder labels, times, and enabled states.
-- **Brush tracking data** - toothbrushes and brush heads, including names,
-  start dates, colors, and retirement/replacement state.
-- **Dentist information** - dentist name, clinic, phone number, email address,
-  postal address, and last cleaning date, if you choose to enter them.
-- **Appointments** - appointment type, date, time, notes, and time zone.
-- **Tooth map data** - per-tooth conditions, optional notes, and a local
-  history of changes.
-- **Dentist documents** - files you choose to attach (for example scans or
-  images), stored in the app's private storage.
-- **Smile photos** - photos you choose to add, stored in the app's private
-  storage, with optional captions and dates.
-- **Dentist report settings** - the name you choose to print on the dentist
-  report.
-- **App preferences** - theme, language, onboarding and disclaimer
-  acknowledgement state, and whether you dismissed the backup reminder.
-- **Cloud backup settings** - whether cloud backup is on, how often it runs,
-  which parts are included, whether it may use mobile data on Android, the
-  Google account you connected on Android, and when the last backup ran or
-  failed.
-- **Purchase state** - a local flag recording whether the "Pro" upgrade is
-  active, so the app can work offline.
+## In-app purchases
 
-We do not have access to any of this data. It is not transmitted to us.
+"Pro" is a single optional one-time purchase, handled by your app store's
+billing system (Google Play Billing or the Apple App Store) and by
+**RevenueCat**, which validates and manages it. What they process is the app
+store's purchase token and product identifier, an anonymous app-generated
+identifier from the RevenueCat SDK (linked to no account, because there is
+none), and technical device and network information used to validate the
+receipt and prevent fraud. The same check runs at start-up so a purchase you
+already made is recognised after a reinstall. Your oral hygiene data is
+**never** part of it.
 
-## In-App Purchases
-
-Gleamit offers a single optional one-time in-app purchase ("Pro") that unlocks
-additional features. Purchases are handled by **your app store's billing system**
-(Google Play Billing or the Apple App Store) and by **RevenueCat**, a third-party
-billing infrastructure provider that validates and manages the purchase.
-
-When you make or restore a purchase, purchase-related information may be
-processed by your app store and RevenueCat, such as:
-
-- the purchase token and product identifier issued by the app store,
-- an anonymous app-generated user identifier created by the RevenueCat SDK
-  (not linked to a Gleamit account, because there is no Gleamit account),
-- technical information used to validate the receipt and prevent fraud, such as
-  device/app and network information.
-
-The RevenueCat SDK also initialises when the app starts and checks the purchase
-status, so that a purchase you already made (for example before a reinstall) is
-recognised without you having to do anything. That check sends the anonymous
-identifier and the technical information described above - nothing more. Your
-oral hygiene data is **never** sent to RevenueCat or to your app store as part
-of this process.
-
-- Google Play billing: https://policies.google.com/privacy
-- Apple App Store: https://www.apple.com/legal/privacy/
+- Google Play: https://policies.google.com/privacy
+- Apple: https://www.apple.com/legal/privacy/
 - RevenueCat: https://www.revenuecat.com/privacy/
 
-## Cloud Backup
+## Cloud backup
 
-Gleamit's automatic safety net is the **cloud backup you turn on yourself**,
-**off until you enable it**. Your device's
-own system backup does **not** include Gleamit's data: app backup is switched
-off on Android, and on iOS Gleamit's working files are marked as excluded from
-the iCloud device backup. Gleamit's own cloud backup, described below, is a
-separate copy that Gleamit puts there on purpose.
+Your device's own system backup does **not** include Gleamit's data: app backup
+is off on Android, and on iOS Gleamit's working files are excluded from the
+iCloud device backup. Gleamit's own cloud backup is a separate copy it makes on
+purpose, and it is off until you turn it on.
 
-With cloud backup on, the app writes a copy of your data - your tracking records
-(brushing and floss history, streaks, tooth map, dentist info, appointments,
-brushes and reminders), your dentist documents and your smile photos - into
-storage you control, on the frequency you choose in the app (daily, weekly or
-monthly - weekly to start with - or only when you tap "Back up now", if you
-choose the manual option) and only when new data is recorded. You can leave
-your smile photos or your dentist documents out of that copy; turning one off
-also removes it from that storage. It keeps the latest copy only, replacing it
-each time.
+With it on, Gleamit copies your tracking records, your dentist documents and
+your smile photos into storage you control, on the frequency you choose (daily,
+weekly, monthly, or manually with "Back up now") and only when there is new
+data. You can leave photos or documents out; turning one off also removes it
+from that storage. Only the latest copy is kept.
 
-Where that copy goes depends on your platform:
+**On iOS** it goes to Gleamit's private area of **your iCloud Drive**, hidden
+from the Files app so it cannot be moved or deleted by accident. Gleamit writes
+the files; **iCloud uploads them**, under your own Apple Account and Apple's
+terms, on your iCloud network settings. Gleamit reads iCloud's upload state and
+tells you in the app when a backup is still waiting to upload or when iCloud
+could not upload it.
 
-- **iOS** - Gleamit's own private area of **your iCloud Drive**, hidden from the
-  Files app so it cannot be moved or deleted by accident. iCloud is a service
-  managed by Apple and running under your own Apple Account: Apple's software
-  uploads and stores those files under Apple's terms, and what Apple can access
-  depends on your iCloud settings, not on us. Gleamit writes the files locally;
-  when they reach iCloud, and whether they use mobile data, is governed by your
-  iCloud settings.
-- **Android** - the hidden, app-scoped area of **your own Google Drive** (the
-  "app data" folder), which only Gleamit can see and which does not appear in
-  your Drive file list. To use it, you connect a Google account of yours in the
-  app. Gleamit uploads the backup itself, so it can tell you when your data
-  actually arrived. Automatic backups run when you leave the app, and Gleamit
-  does not start one on mobile data unless you turn on "Back up using mobile
-  data": on mobile data it waits for the next time you leave the app on Wi-Fi.
-  An upload already under way finishes on whatever connection the device moves
-  to. The "Back up now" button runs immediately on the connection you have, and
-  a run you asked for that could not finish is retried the same way, mobile data
-  included.
+**On Android** it goes to the hidden, app-scoped area of **your own Google
+Drive** (the "app data" folder), which only Gleamit can see and which never
+appears in your Drive file list. You connect a Google account in the app;
+sign-in is handled by Google and asks for a single permission, that app-scoped
+area (`drive.appdata`). Gleamit receives your account's email address, to show
+you which account holds the backup, and an access token kept on your device. It
+can see no other file in your Drive. Gleamit uploads the backup itself, so it
+can tell you when your data actually arrived. Automatic backups run when you
+leave the app and will not start on mobile data unless you turn on "Back up
+using mobile data" - otherwise they wait for the next time you leave the app on
+Wi-Fi. An upload already under way finishes on whatever connection the device
+moves to. "Back up now" runs immediately on the connection you have, and a run
+you asked for is retried the same way, mobile data included.
 
-On Android, the sign-in is handled by Google and requests a single permission,
-the app-scoped Drive storage area (`drive.appdata`). Gleamit receives your
-account's email address, so it can show you which account holds the backup, and
-an access token stored on your device. Gleamit cannot see any other file in your
-Drive, and we never receive your backup: we cannot read, restore, or delete it.
+Worth knowing:
 
-Some things worth knowing:
-
-- **The files are not encrypted by Gleamit.** They are ordinary, readable files
-  in storage you control, the same as a backup archive you export yourself.
-  Google and Apple encrypt them in transit and at rest like anything else in
-  your storage, but there is no end-to-end encryption and no passphrase: how
-  well the backup is protected depends on your account with that provider and
-  your device settings.
+- **The files are not encrypted by Gleamit.** They are ordinary readable files
+  in your own storage, like an archive you export yourself. Apple and Google
+  encrypt them in transit and at rest as they do everything else, but there is
+  no end-to-end encryption and no passphrase.
 - **Disconnecting Gleamit in Google Drive deletes the backup.** The app-scoped
-  area belongs to the app: if you remove Gleamit from your Google Account's
-  connected apps (Drive settings, "Manage apps"), Google deletes the hidden
-  backup along with it. That is also how you delete the backup deliberately.
-- **Switching or disconnecting the account inside Gleamit deletes nothing.**
-  Choosing another Google account points future backups at that account and
-  leaves the earlier copy where it is; disconnecting simply turns cloud backup
-  off. No part of the app deletes a remote backup on its own, except the media
-  parts you explicitly exclude.
-- **Backups can stop.** If your cloud storage is full, if you withdraw
-  Gleamit's access to your Google account, or if iCloud Drive is off for
-  Gleamit, the app cannot back up. On Android your device's own power saving can
-  also hold backups back indefinitely - Battery Saver while Gleamit's battery
-  usage is "Optimized", or a manufacturer's app sleep setting applied to
-  Gleamit. Gleamit shows these in the app rather than failing quietly, but it
-  cannot fix them for you.
+  area belongs to the app: removing Gleamit under "Manage apps" in your Google
+  Account deletes the hidden backup with it. That is also how you delete it
+  deliberately.
+- **Switching or disconnecting the account inside Gleamit deletes nothing.** A
+  different account only points future backups elsewhere; disconnecting just
+  turns cloud backup off. Nothing in the app deletes a remote backup on its
+  own, except the media parts you exclude.
+- **Backups can stop.** Full cloud storage, withdrawn access to your Google
+  account, iCloud Drive off for Gleamit, or - on Android - your device's power
+  saving or a manufacturer's app sleep setting can hold them back indefinitely.
+  Gleamit surfaces this in the app instead of failing quietly, but it cannot
+  fix it for you.
 - **Restoring happens in the app.** On a new device you install Gleamit and
-  restore from your backup yourself; the operating system will not bring
-  Gleamit's data back on its own.
+  restore yourself; the operating system will not bring the data back.
 - **Turning cloud backup off** stops future backups. The copy already in your
-  storage stays there until you delete it.
+  storage stays until you delete it.
 
 ## Notifications
 
-Gleamit uses **local notifications** scheduled on your device for reminders such
-as brushing reminders, cleaning reminders, brush replacement reminders, and
-appointment reminders. These notifications are generated on-device. Gleamit does
-**not** use remote push notifications and does not operate a notification server.
+Reminders use **local notifications** scheduled on your device. There are no
+remote push notifications and no notification server.
 
-## How We Use and Share Information
+## Sharing
 
-Because your data stays on your device, we do not use it ourselves: the app
-uses it locally only to operate its features. We do **not** use your data for
-advertising or profiling, and we do **not** sell, rent, or share it. The only
-third parties involved are the ones described above: your app store and
-RevenueCat for the optional in-app purchase, and - only if you turn cloud
-backup on - Apple (iCloud) or Google (Sign-In and Drive) holding your backup
-under your own account and that company's terms (their privacy policies are
-linked in "In-App Purchases").
+Because your data stays on your device, we do not use it: the app uses it
+locally to run its features. We do not profile, advertise, sell, rent, or
+share. The only third parties are the ones above - your app store and
+RevenueCat for the purchase, and, only if you enable cloud backup, Apple or
+Google holding your copy under your own account and their terms.
 
-## Exporting Your Data
+## Exporting your data
 
-Gleamit lets you export a full backup archive of your data (tracking records,
-dentist documents and smile photos) so you can keep your own copy or move it to
-another device, and generate a dentist report PDF from what you recorded. These
-files are created on your device and shared by you through your device's own
-sharing options; they are not sent to us, and you decide who receives them.
+You can export a full backup archive (tracking records, documents and photos)
+and generate a dentist report PDF. Both are created on your device and shared
+by you through your device's own sharing options. They are not sent to us, and
+you decide who receives them.
 
-## Data Retention and Deletion
+## Retention and deletion
 
-Your data remains on your device until you remove it. You can:
+Your data stays on your device until you remove it: delete items in the app,
+clear the app's storage, or uninstall. If you turned cloud backup on, the copy
+stays in your own cloud storage until you delete it there - on iOS in your
+iCloud settings, on Android by disconnecting Gleamit in your Google Drive
+settings.
 
-- delete individual items inside the app,
-- clear the app's storage in your device settings, or
-- uninstall the app.
+## Your rights (EU/GDPR)
 
-Uninstalling the app or clearing its storage removes Gleamit's on-device data
-from that device. If you turned cloud backup on, the copy Gleamit wrote stays
-in your own cloud storage until you delete it there: on iOS by deleting
-Gleamit's data in your iCloud settings, on Android by disconnecting Gleamit in
-your Google Drive settings, as described in "Cloud Backup".
+For the data you record we are not a data controller: it never reaches us, so
+we could not access, correct, export or delete it even on request. The sections
+above explain how you do that yourself.
 
-## Your Rights (EU/GDPR)
+For the optional purchase we are the controller, with RevenueCat as processor;
+your app store handles payment data under its own terms. The legal basis is
+performance of a contract (Article 6(1)(b) GDPR), the data is limited to what
+is listed above, and it serves no other purpose. You have the rights of access,
+rectification, erasure, restriction, portability and objection over that
+purchase data - write to the address below. You may also complain to a
+supervisory authority, in Italy the Garante per la Protezione dei Dati
+Personali.
 
-For the data you record in the app, we are not a data controller: it stays on
-your device (and, if you enable cloud backup, in cloud storage of your own) and
-never reaches us, so we could not access, correct, export, or delete it even on
-request. The sections above explain how you do those things yourself.
+## Medical disclaimer
 
-For the optional in-app purchase, we act as the data controller, with
-RevenueCat as our processor; your app store (Google or Apple) processes payment
-data under its own terms. The legal basis is the performance of a contract
-(Article 6(1)(b) GDPR), the data is limited to what is listed in "In-App
-Purchases", and it is not used for any other purpose.
+**Gleamit is not a medical device and does not give dental advice.** It records
+what you log and shows it back to you; it never assesses the health information
+you enter. Always consult your dental health professional. The full disclaimer
+is in our [Terms and Conditions](terms_and_conditions.md).
 
-Under the GDPR you have the rights of access, rectification, erasure,
-restriction, portability, and objection over that purchase data. To exercise
-them, contact us at the email below. You also have the right to lodge a
-complaint with a supervisory authority - in Italy, the Garante per la
-Protezione dei Dati Personali.
+## Children's privacy
 
-## Medical Disclaimer
+Gleamit is a general-audience app, not directed to children, and we knowingly
+collect no personal information from them. With no account and no server of
+ours, anything entered stays on the device, under the control of its owner.
 
-**Gleamit is not a medical device and does not give dental advice.** It is your
-own record - it keeps track of what you log and shows it back to you, and it
-never takes the health information you enter and returns an assessment of it.
-Always consult your dental health professional when making decisions about your
-teeth. The full disclaimer is in our
-[Terms and Conditions](terms_and_conditions.md).
+## Changes
 
-## Children's Privacy
+We may update this policy; changes are reflected in the "Last updated" date
+above.
 
-Gleamit is a general-audience app and is **not directed to children**. We do not
-knowingly collect personal information from children. Because the app has no
-account of ours and no server of ours, any data entered stays on the device
-under the control of the device's owner, who can remove it as described in
-"Data Retention and Deletion".
-
-## Changes to This Policy
-
-We may update this Privacy Policy from time to time. We will reflect changes by
-updating the "Last updated" date at the top of this page.
-
-## Contact Us
-
-If you have any questions about this Privacy Policy, please contact:
+## Contact
 
 **Email:** lorenzozabot@gmail.com
